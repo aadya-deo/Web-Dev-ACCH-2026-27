@@ -1,0 +1,84 @@
+* {
+    margin : 0;
+    padding : 0;
+}
+
+#ttt {
+    margin-top: 2%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #ffffc7;
+    font-size: 60px;
+}
+
+body {
+     background-color: #548687;
+     text-align: center;
+}
+
+.container {
+    margin: 50px;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game {
+    height: 50vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+
+.box {
+    height: 15vmin;
+    width: 15vmin;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0,0,0,0.3);
+    font-size: 8vmin;
+    color: #b0413e;
+    background-color: #ffffc7;
+}
+
+#resetBtn {
+    margin: 10px;
+    padding: 1rem;
+    font-size: 2rem;
+    background-color: black;
+    color: #ffffc7;
+    border-radius: 1rem;
+    border: none;
+}
+
+#newBtn {
+    padding: 3rem;
+    font-size: 1.25rem;
+    background-color: black;
+    color: #ffffc7;
+    border-radius: 1rem;
+    border: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#msg {
+    color: #ffffc7;
+    font-size: 5vmin;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.msgContainer {
+    height: 100vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+.hide {
+    display: none;
+}
