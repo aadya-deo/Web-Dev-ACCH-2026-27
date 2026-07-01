@@ -1,6 +1,8 @@
 # Web-Dev-ACCH-2026-27
 My attempts in learning Web Development for efficient uses in future projects : )
 
-Projects [Datewise Ordered]
+# Kindly change the branch from main to below branches to access the respective project source codes 
 
-1. Tic-Tac-Toe [June 26th, 2026]
+Projects [Branchwise - Ordered]
+
+1. Tic-Tac-Toe
